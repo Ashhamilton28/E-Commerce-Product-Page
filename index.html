@@ -16,23 +16,65 @@
 
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <nav>
         <div class="left-nav">
-          <img src="images/icon-menu.svg" alt="">
-        <img src="images/logo.svg" alt="">
+          <img class="menu" src="images/icon-menu.svg" alt="" />
+          <img class="logo" src="images/logo.svg" alt="" />
         </div>
-        <div>
-          <img src="images/icon-cart.svg" alt="">
-        <img class="avatar" src="images/image-avatar.png" alt="">
+        <div class="right-nav">
+          <img class="cart" src="images/icon-cart.svg" alt="" />
+          <img
+            class="avatar"
+            class="avatar"
+            src="images/image-avatar.png"
+            alt=""
+          />
         </div>
       </nav>
-      Collections Men Women About Contact Sneaker Company Fall Limited Edition
-      Sneakers These low-profile sneakers are your perfect casual wear
-      companion. Featuring a durable rubber outer sole, they’ll withstand
-      everything the weather can offer. $125.00 50% $250.00 0 Add to cart
+      <div>
+        <img class="product-one" src="images/image-product-1.jpg" alt="" />
+      </div>
+      <!-- Collections Men Women About Contact  -->
+      <div>
+        <div class="sneaker-company">Sneaker Company</div>
+
+        <div class="fall-limited-edition-sneakers">
+          Fall Limited Edition Sneakers
+        </div>
+        <p class="sneaker-paragraph">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+
+        <div class="prices">
+          <div class="one-twenty-five">$125.00</div>
+
+          <div class="fifty">50%</div>
+
+          <div class="two-hundred-and-fifty">$250.00</div>
+        </div>
+
+        <div class="increment-decrement">
+          <button class="decrement">-</button>
+          <p>0</p>
+          <button class="increment">+</button>
+        </div>
+        <div class="add-to-cart-div">
+          
+          <button class="add-to-cart-button"><img class="add-to-cart-icon" src="images/icon-cart.svg" alt=""> Add to cart</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

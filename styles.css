@@ -6,28 +6,132 @@
   --GrayishBlue: hsl(220, 14%, 75%);
   --LightGrayishBlue: hsl(223, 64%, 98%);
   --White: hsl(0, 0%, 100%);
-  --Black: hsl(0, 0%, 0%); 
+  --Black: hsl(0, 0%, 0%);
   /* (with 75% opacity for lightbox background) */
 }
 
-body{
+body {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  width: 375px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 80px;
+}
+
+.avatar {
+  height: 30px;
+}
+
+.menu {
+  margin-right: 10px;
+}
+
+.cart {
+  margin-right: 15px;
+}
+
+.product-one {
+  height: 250px;
+  width: 375px;
+}
+
+.sneaker-company {
+  text-transform: uppercase;
+  color: var(--Orange);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.fall-limited-edition-sneakers {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.sneaker-paragraph {
+  color: var(--DarkGrayishBlue);
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.one-twenty-five {
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.fifty {
+  font-size: 20px;
+  color: var(--Orange);
+  background-color: var(--PaleOrange);
+  margin-right: 150px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.two-hundred-and-fifty {
+  color: var(--DarkGrayishBlue);
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+.increment-decrement{
     display: flex;
     justify-content: center;
-    background-color: pink;
-    
-}
-
-.container{
-    width: 375px;
-}
-
-nav{
-    display: flex;
     align-items: center;
-    padding: 15px;
+    background-color: var(--LightGrayishBlue);
 }
 
-.avatar{
-    height: 30px;
-   
+.decrement{
+    border: none;
+    color: var(--Orange);
+    background-color: var(--LightGrayishBlue);
+    font-weight: bold;
+}
+
+.increment{
+    border: none;
+    color: var(--Orange);
+    background-color: var(--LightGrayishBlue);
+    font-weight: bold;
+}
+
+.add-to-cart-button{
+    background-color: var(--Orange);
+    border: none;
+    border-radius: 10px;
+    width: 375px;
+    height: 50px;
+    color: var(--White);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.add-to-cart-div{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart-icon{
+    color: var(--White);
 }
